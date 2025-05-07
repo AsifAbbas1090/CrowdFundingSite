@@ -1,0 +1,206 @@
+.donate-page-v2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.donate-main-v2 {
+  flex: 1;
+  padding: 40px 20px;
+}
+
+.donate-form-section-v2 {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.donate-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.donate-form-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group-v2 label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.amount-options-v2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.amount-option-v2 {
+  padding: 12px 20px;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.amount-option-v2.selected {
+  background-color: #e6bd17;
+  border-color: #e6bd17;
+}
+
+.amount-option-v2:hover {
+  border-color: #e6bd17;
+}
+
+.custom-amount-v2 {
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.custom-amount-v2:focus {
+  border-color: #e6bd17;
+  outline: none;
+}
+
+.payment-methods-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.payment-method-v2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.bank-details-v2,
+.card-details-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.card-info-row-v2 {
+  display: flex;
+  gap: 16px;
+}
+
+.card-info-row-v2 .form-group-v2 {
+  flex: 1;
+}
+
+.card-details-v2 input[type="text"] {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
+
+.card-details-v2 input[type="text"]:focus {
+  border-color: #e6bd17;
+  outline: none;
+}
+
+.bank-details-v2 input {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.bank-details-v2 input:focus {
+  border-color: #e6bd17;
+  outline: none;
+}
+
+.anonymous-checkbox-v2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-donation-v2 {
+  padding: 16px;
+  background-color: #e6bd17;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-donation-v2:hover {
+  background-color: #e5c62e;
+}
+
+@media (max-width: 768px) {
+  .donate-form-section-v2 {
+    padding: 24px;
+  }
+  
+  .donate-title-v2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .donate-form-section-v2 {
+    padding: 20px;
+  }
+  
+  .donate-title-v2 {
+    font-size: 24px;
+  }
+  
+  .amount-options-v2 {
+    gap: 8px;
+  }
+  
+  .amount-option-v2 {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}

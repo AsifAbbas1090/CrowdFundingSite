@@ -1,0 +1,186 @@
+.preview-page-v2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.preview-content-v2 {
+  flex: 1;
+  padding: 120px 20px 40px;
+}
+
+.preview-container-v2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.preview-header-v2 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.preview-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.preview-subtitle-v2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.preview-card {
+  background: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.preview-image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.preview-image-v2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preview-category-badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 8px 16px;
+  background-color: rgba(255, 221, 51, 0.9);
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.preview-details-v2 {
+  padding: 40px;
+}
+
+.campaign-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.campaign-stats-v2 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 24px;
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  margin-bottom: 32px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.stat-label {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+.stat-value {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.stat-divider {
+  width: 1px;
+  height: 40px;
+  background-color: #e0e0e0;
+}
+
+.campaign-description-v2 {
+  margin-bottom: 32px;
+}
+
+.section-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.description-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666666;
+}
+
+.preview-actions-v2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .preview-image-container {
+    height: 300px;
+  }
+
+  .preview-details-v2 {
+    padding: 30px;
+  }
+
+  .campaign-title-v2 {
+    font-size: 24px;
+  }
+
+  .campaign-stats-v2 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .stat-divider {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .preview-image-container {
+    height: 200px;
+  }
+
+  .preview-details-v2 {
+    padding: 20px;
+  }
+
+  .preview-actions-v2 {
+    flex-direction: column-reverse;
+  }
+
+  .campaign-title-v2 {
+    font-size: 20px;
+  }
+
+  .stat-value {
+    font-size: 18px;
+  }
+}

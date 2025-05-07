@@ -1,0 +1,135 @@
+.bank-info-page-v2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.bank-info-content-v2 {
+  flex: 1;
+  padding: 120px 20px 40px;
+}
+
+.bank-info-container-v2 {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bank-info-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  margin-top: 40px;
+}
+
+.bank-info-header-v2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.bank-info-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.bank-info-subtitle-v2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.5;
+}
+
+.bank-info-form-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label-v2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.form-input-v2 {
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  transition: all 0.2s ease;
+}
+
+.form-input-v2:focus {
+  outline: none;
+  border-color: #ffdd33;
+  box-shadow: 0 0 0 4px rgba(255, 221, 51, 0.1);
+}
+
+.form-input-v2::placeholder {
+  color: #999999;
+}
+
+.bank-info-buttons-v2 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.primary-button-v2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 32px;
+  background-color: #ffdd33;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.primary-button-v2:hover {
+  background-color: #e5c62e;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .bank-info-card {
+    padding: 30px;
+  }
+
+  .bank-info-title-v2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .bank-info-card {
+    padding: 20px;
+  }
+
+  .bank-info-title-v2 {
+    font-size: 24px;
+  }
+
+  .bank-info-subtitle-v2 {
+    font-size: 14px;
+  }
+}

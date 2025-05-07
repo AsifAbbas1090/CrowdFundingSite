@@ -1,0 +1,339 @@
+/* CampaignPageV2.css */
+
+/* Main Container */
+.campaign-page-v2 {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Content Area */
+  .campaign-content-v2 {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+  
+  /* Header Section */
+  .campaign-header-v2 {
+    margin-bottom: 2.5rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  }
+  
+  .campaign-image-container {
+    height: 25rem;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .campaign-header-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .campaign-header-content {
+    padding: 1.5rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .campaign-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    color: #1a1a1a;
+    line-height: 1.2;
+  }
+  
+  .campaign-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .campaign-category {
+    background-color: #e8f4fd;
+    color: #2a7de1;
+    padding: 0.375rem 0.875rem;
+    border-radius: 1.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+  
+  .campaign-creator {
+    color: #666666;
+    font-size: 0.9375rem;
+  }
+  
+  /* Main Content Layout */
+  .campaign-body-v2 {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .campaign-main-content {
+    flex: 2;
+  }
+  
+  .campaign-sidebar {
+    flex: 1;
+    min-width: 20rem;
+  }
+  
+  /* Description Section */
+  .campaign-description {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+  }
+  
+  .campaign-description h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 1.25rem;
+  }
+  
+  .campaign-description p {
+    color: #333333;
+    line-height: 1.7;
+    font-size: 1.0625rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Updates Section */
+  .campaign-updates {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+  }
+  
+  .campaign-updates h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 1.25rem;
+  }
+  
+  .update-card {
+    padding: 1.25rem 0;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .update-card:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  
+  .update-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.625rem;
+  }
+  
+  .update-card p {
+    color: #555555;
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .update-date {
+    color: #999999;
+    font-size: 0.8125rem;
+  }
+  
+  /* Donation Card */
+  .donation-card {
+    background-color: #ffffff;
+    padding: 1.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.5rem;
+    position: sticky;
+    top: 1.5rem;
+  }
+  
+  .progress-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .progress-bar {
+    height: 0.5rem;
+    background-color: #f0f0f0;
+    border-radius: 0.25rem;
+    margin-bottom: 0.75rem;
+    overflow: hidden;
+  }
+  
+  .progress-fill {
+    height: 100%;
+    background-color: #2a7de1;
+    border-radius: 0.25rem;
+    transition: width 0.5s ease;
+  }
+  
+  .progress-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.375rem;
+    font-size: 0.9375rem;
+  }
+  
+  .progress-stats span:first-child {
+    color: #2a7de1;
+    font-weight: 600;
+  }
+  
+  .progress-stats span:last-child {
+    color: #666666;
+  }
+  
+  .goal-amount {
+    text-align: right;
+    color: #666666;
+    font-size: 0.9375rem;
+  }
+  
+  .donate-button {
+    width: 100%;
+    padding: 0.875rem;
+    background-color: #2a7de1;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 0.75rem;
+  }
+  
+  .donate-button:hover {
+    background-color: #1c6ac8;
+    transform: translateY(-1px);
+  }
+  
+  .donate-button:active {
+    transform: translateY(0);
+  }
+  
+  /* Stats Section */
+  .campaign-stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 1.25rem 1.75rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+  }
+  
+  .stat-item {
+    text-align: center;
+    flex: 1;
+  }
+  
+  .stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+  }
+  
+  .stat-label {
+    font-size: 0.875rem;
+    color: #666666;
+  }
+  
+  /* Loading and Error States */
+  .loading-message,
+  .error-message {
+    text-align: center;
+    padding: 3rem;
+    font-size: 1.125rem;
+  }
+  
+  .loading-message {
+    color: #666666;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 992px) {
+    .campaign-body-v2 {
+      flex-direction: column;
+    }
+    
+    .campaign-sidebar {
+      min-width: 100%;
+    }
+    
+    .donation-card {
+      position: static;
+      margin-top: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .campaign-header-v2 {
+      margin-bottom: 1.5rem;
+    }
+    
+    .campaign-image-container {
+      height: 18rem;
+    }
+    
+    .campaign-title {
+      font-size: 1.75rem;
+    }
+    
+    .campaign-description,
+    .campaign-updates {
+      padding: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .campaign-content-v2 {
+      padding: 1.5rem 1rem;
+    }
+    
+    .campaign-image-container {
+      height: 14rem;
+    }
+    
+    .campaign-header-content {
+      padding: 1.25rem;
+    }
+    
+    .campaign-title {
+      font-size: 1.5rem;
+    }
+    
+    .campaign-meta {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+    
+    .donation-card,
+    .campaign-stats {
+      padding: 1.25rem;
+    }
+  }

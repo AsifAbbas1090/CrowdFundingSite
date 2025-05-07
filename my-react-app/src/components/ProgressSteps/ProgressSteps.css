@@ -1,0 +1,41 @@
+.progress-steps {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.step-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.step-number {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background-color: #d1d5db;
+  color: #ffffff;
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.step-number.active {
+  background-color: rgb(59 130 246);
+}
+
+.step-label {
+  color: #9ca3af;
+}
+
+.step-label.active {
+  color: rgb(59 130 246);
+}
+
+.step-line {
+  flex: 1;
+  height: 2px;
+  background-color: #e5e7eb;
+}

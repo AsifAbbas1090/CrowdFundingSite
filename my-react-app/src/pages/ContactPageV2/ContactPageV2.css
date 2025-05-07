@@ -1,0 +1,270 @@
+.contact-page-v2 {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f9fa;
+}
+
+.contact-content-v2 {
+  flex: 1;
+}
+
+/* Section Header */
+.section-header-v2 {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.section-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.section-subtitle-v2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  color: #666666;
+}
+
+@media (max-width: 768px) {
+  .section-title-v2 {
+    font-size: 28px;
+  }
+}
+
+/* Contact Section */
+.contact-section-v2 {
+  padding: 80px 20px;
+  margin-top: -60px;
+}
+
+.contact-container-v2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-grid-v2 {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 24px;
+}
+
+/* Contact Info Card */
+.contact-info-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card-title-v2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.card-subtitle-v2 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 32px;
+}
+
+.contact-info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.info-icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6bd17;
+  border-radius: 12px;
+  color: #1a1a1a;
+}
+
+.info-content h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.info-content p {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  color: #1a1a1a;
+  transition: all 0.2s ease;
+}
+
+.social-link:hover {
+  background-color: #e6bd17;
+  transform: translateY(-2px);
+}
+
+/* Contact Form Card */
+.contact-form-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row-v2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.form-group-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label-v2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+.form-input-v2 {
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  transition: all 0.2s ease;
+}
+
+.form-input-v2:focus {
+  outline: none;
+  border-color: #e6bd17;
+  box-shadow: 0 0 0 4px rgba(255, 221, 51, 0.1);
+}
+
+.form-textarea-v2 {
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  resize: vertical;
+  min-height: 120px;
+  transition: all 0.2s ease;
+}
+
+.form-textarea-v2:focus {
+  outline: none;
+  border-color: #e6bd17;
+  box-shadow: 0 0 0 4px rgba(255, 221, 51, 0.1);
+}
+
+.submit-button-v2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 48px;
+  background-color: #e6bd17;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submit-button-v2:hover {
+  background-color: #e5c62e;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 991px) {
+  .contact-grid-v2 {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-title-v2 {
+    font-size: 36px;
+  }
+
+  .hero-subtitle-v2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact-section-v2 {
+    padding: 40px 20px;
+    margin-top: -40px;
+  }
+
+  .contact-info-card,
+  .contact-form-card {
+    padding: 24px;
+  }
+
+  .hero-title-v2 {
+    font-size: 28px;
+  }
+
+  .hero-subtitle-v2 {
+    font-size: 16px;
+  }
+
+  .form-row-v2 {
+    grid-template-columns: 1fr;
+  }
+
+  .card-title-v2 {
+    font-size: 24px;
+  }
+}

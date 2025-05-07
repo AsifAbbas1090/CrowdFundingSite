@@ -1,0 +1,45 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-symbol {
+  height: 40px;
+  width: auto;
+}
+
+.logo-text {
+  height: 20px;
+  width: auto;
+  font-size: 18px; /* Adjust size as needed */
+  color: #e6bd17; /* Adjust color as needed */
+  margin-left: 0px; /* Space between logo and text */
+  font-weight: bold; /* Make text bold */
+  text-transform: uppercase; /* Capitalize all letters */
+}
+
+.logo-text-container {
+  display: flex;
+  flex-direction: column; /* Stack text vertically */
+}
+
+@media (max-width: 768px) {
+  .logo-symbol {
+    height: 32px;
+  }
+
+  .logo-text {
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-symbol {
+    height: 28px;
+  }
+
+  .logo-text {
+    height: 18px;
+  }
+}

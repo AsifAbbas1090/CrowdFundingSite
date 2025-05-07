@@ -1,0 +1,256 @@
+.login-page-v2 {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.login-content-v2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.login-container-v2 {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.login-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.login-header-v2 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.login-title-v2 {
+  color: #1a1a1a;
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.login-subtitle-v2 {
+  color: #666666;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.login-form-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-group-v2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-label-v2 {
+  color: #1a1a1a;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.input-wrapper {
+  position: relative;
+}
+
+.form-input-v2 {
+  width: 90%;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  transition: all 0.2s ease;
+}
+
+.form-input-v2:focus {
+  outline: none;
+  border-color: #bc9c22;
+  box-shadow: 0 0 0 4px rgba(188, 156, 34, 0.1);
+}
+
+.form-input-v2::placeholder {
+  color: #999999;
+}
+
+.form-options-v2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remember-me-v2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkbox-input-v2 {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 2px solid #e0e0e0;
+  cursor: pointer;
+}
+
+.forgot-password-v2 {
+  color: #bc9c22;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.forgot-password-v2:hover {
+  color: #e5c62e;
+}
+
+.sign-in-button-v2 {
+  height: 48px;
+  background-color: #bc9c22;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sign-in-button-v2:hover {
+  background-color: #e5c62e;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 8px 0;
+}
+
+.divider-line {
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
+.divider-text {
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.social-sign-in-v2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 48px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.social-sign-in-v2:hover {
+  background-color: #f8f9fa;
+}
+
+.social-sign-in-v2.facebook {
+  color: #ffffff;
+  background-color: #1877f2;
+  border: none;
+}
+
+.social-sign-in-v2.facebook:hover {
+  background-color: #166fe5;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.signup-prompt-v2 {
+  margin-top: 24px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #666666;
+}
+
+.signup-link-v2 {
+  color: #bc9c22;
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 4px;
+  transition: color 0.2s ease;
+}
+
+.signup-link-v2:hover {
+  color: #e5c62e;
+}
+
+@media (max-width: 640px) {
+  .login-content-v2 {
+    padding: 20px;
+  }
+
+  .login-card {
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  .login-title-v2 {
+    font-size: 28px;
+  }
+
+  .login-subtitle-v2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .form-options-v2 {
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .social-sign-in-v2 {
+    font-size: 13px;
+  }
+}
